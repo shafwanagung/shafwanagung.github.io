@@ -24,18 +24,24 @@
         body {
             font-family: 'Lexend Deca', sans-serif;
         }
+        h1 {
+          font-weight: 900
+        }
+        .spacing {
+          line-height: 17px
+        }
     </style>
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <a class="navbar-brand" href="#">Shafwan Agung</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
+      <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
@@ -55,10 +61,10 @@
   <div class="container">
     <div class="row m-5">
       <div class="col-md-6">
-        <h1 class="mt-5" style="color: #34495e;">Hi! I'm a</h1>
-        <h1 id="title1" style="display: none;">Graphic Designer</h1>
-        <h1 id="title2">Photographer</h1>
-        <h1 id="title3" style="display: none;">Film-maker</h1>
+        <h2 class="mt-5" style="color: #34495e;">Hi! I'm a self-taught</h2>
+        <h1 id="title1" class="spacing" style="display: none;">Graphic Designer</h1>
+        <h1 id="title2" class="spacing">Photographer</h1>
+        <h1 id="title3" class="spacing" style="display: none;">Film-maker</h1>
       </div>
       <script>
         var id = ['#title1', '#title2', '#title3'];
