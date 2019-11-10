@@ -1,99 +1,51 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Shafwan's Portfolio</title>
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap" rel="stylesheet">
-  <style>
-    body {
-      font-family: 'Lexend Deca', sans-serif;
-    }
-
-    h1 {
-      font-weight: 900
-    }
-
-    .spacing {
-      /* line-height: 17px */
-    }
-  </style>
+	<title>Shafwan Agung</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	
+	
+	<!-- Font -->
+	
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700%7CPoppins:400,500" rel="stylesheet">
+	
+	
+	<link href="common-css/ionicons.css" rel="stylesheet">
+	
+	
+	<link rel="stylesheet" href="common-css/jquery.classycountdown.css" />
+		
+	<link href="styles.css" rel="stylesheet">
+	
+	<link href="responsive.css" rel="stylesheet">
+	
 </head>
-
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <a class="navbar-brand" href="#">Shafwan Agung</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home  <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#about">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#portofolio">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contact">Contact</a>
-        </li>
-        <!-- <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li> -->
-      </ul>
-    </div>
-  </nav>
-  <!-- Credit animation by Yoga CR -->
-  <div class="container">
-    <div class="row m-5">
-      <div class="col-md-6">
-        <h2 class="mt-5" style="color: #34495e;">Hi! I'm Afan</h2>
-        <h1 id="title1" class="spacing" style="display: none;">Graphic Designer</h1>
-        <h1 id="title2" class="spacing">Photographer</h1>
-        <h1 id="title3" class="spacing" style="display: none;">Film-maker</h1>
-      </div>
-      <script>
-        var id = ['#title1', '#title2', '#title3'];
-        var x = 0;
-        $('document').ready(function () {
-          setInterval(function () {
-            id.forEach(e => {
-              if (!($(e).css('display', 'none'))) {
-                $(e).slideUp('slow');
-              }
-            });
-            $(id[x]).slideDown('slow');
-            if (x == id.length - 1) {
-              x = 0;
-            } else {
-              x++;
-            }
-          }, 3000);
-
-        });
-      </script>
-    <div>
-      <button type="button" class="btn btn-primary">My work</button>
-    </div>
+	
+	<div class="main-area center-text" style="background-image:url(DSC_0713.jpg);">
+		
+		<div class="display-table">
+			<div class="display-table-cell">
+				
+				<h1 class="title font-white"><b>Coming Soon</b></h1>
+				<h2 class="title font-white"><b>Shafwan Agung's Website</b></h1>
+				<p class="desc font-white">Still working hard to make this project possible. Stay tune!</p>
+				
+				<a class="notify-btn" href="05211940000113_CV.pdf"><b>CV</b></a>
+				<a class="notify-btn" href="052119400000113_Portofolio.pdf"><b>Portfolio</b></a>
+				
+				<ul class="social-btn font-white">
+					<li><a href="mailto:shafwan.agung12@gmail.com">email</a></li>
+					<li><a href="https://instagram.com/shafwan.agung">instagram</a></li>
+					<li><a href="https://wa.me/6287854226092">whatsapp</a></li>
+					<li><a href="https://line.me/ti/p/~shafwan_agung">line</a></li>
+				</ul><!-- social-btn -->
+				
+			</div><!-- display-table -->
+		</div><!-- display-table-cell -->
+	</div><!-- main-area -->
+	
 </body>
-
 </html>
